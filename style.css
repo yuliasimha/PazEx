@@ -1,0 +1,25 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+direction: rtl;
+text-align: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column{
+float: right;
+}
+
+nav > ul > li{
+ float: right;
+}
+
+nav > ul > li > a{
+ text-decoration: none; 
+}
