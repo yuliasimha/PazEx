@@ -22,6 +22,7 @@ margin: 5px;;
 main{
  width: 900px;
  margin: 0 auto;
+ padding-top: 25px;
 }
 
 
@@ -38,13 +39,20 @@ a{
 }
 
 header{
+   position: relative;
    height: 105px;
-   background-image: url("images/header_bg.png");
+
+   width: 900px;
+   margin: 0 auto;
+}
+
+#headerBack{
+    background-image: url("images/header_bg.png");
 }
 
 div.search {
 float:left;
-margin: 15px;
+margin: 5px;
 }
 
 div.search > a{
@@ -62,14 +70,16 @@ div.search > input{
     height: 19px;
 }
 
-nav{
-   position: relative;
+
+header > #logoIcon{
+    position: absolute;
+    bottom: -20px;
+    right: 0;
 }
 
-nav > #logoIcon{
-    position: absolute;
-    bottom: 0;
-    right: 10px;
+nav > #houseIcon{
+    float:right;
+    padding: 0 15px;
 }
 
 footer > ul > li, nav > ul >li{
@@ -79,9 +89,21 @@ footer > ul > li, nav > ul >li{
 
 nav > ul > li > a{
  text-decoration: none;
- padding: 16px; 
+ padding: 0 15px;
+ font-size: 15px;
  font-weight: bold;
  color: white; 
+ border-right: 2px solid  #B8B0B0;
+}
+
+nav{
+    position: absolute;
+    right: 150px; 
+    bottom: 10px;
+}
+
+nav > ul{
+    width: 800px;
 }
 
 footer > ul > li > a{
