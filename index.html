@@ -7,12 +7,18 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="main.js"></script>
 </head>
 
 <body>
     <header>
-        <nav>
+
+        <div class="search clearfix">
+            <a href="#">English</a>
+            <input type="text" placeholder="רשום מילת חיפוש">
+        </div>
+        <nav class="clearfix">
+            <img src="images/paz_logo.png" alt="image" id="logoIcon">
+            <img src="images/menu_home_blue.png" alt="image" id="houseIcon">
             <ul class="clearfix">
                 <li>
                     <a href="#">אודות</a>
@@ -39,53 +45,63 @@
         </nav>
     </header>
     <main>
-        <div class="clearfix">
-            <div class="column">
-                <img src="" alt="">
+        <div class="clearfix row1">
+            <div class="column" id="row1col1">
                 <div class="content">
                     <h4>קמעונאות ומסחר</h4>
                     <p>
-
+                        במסגרת חטיבת הקו"מ של פז מתבצעת הפעילות הקמעונאית, הנדל"נית, והשיווקית של הקבוצה, שמתאפיינת בחדשנות, יעילות ומובילות. החטיבה
+                        פועלת...
                     </p>
                     <a href="">קרא עוד</a>
                 </div>
             </div>
-            <div class="column">
-                <img src="" alt="">
+            <div class="column" id="row1col2">
                 <div class="content">
                     <h4>זיקוק</h4>
                     <p>
-
+                        פז זיקוק אשדוד (פז"א) היא חטיבת הזיקוק של קבוצת פז. החטיבה עוסקת בניהול פעילות בית הזיקוק באשדוד, הכוללת ייצור תזקיקי נפט...
                     </p>
                     <a href="">קרא עוד</a>
                 </div>
             </div>
-            <div class="column">
-                <img src="" alt="">
+            <div class="column" id="row1col3">
                 <div class="content">
                     <h4>תעשיות ושירוים</h4>
                     <p>
-
+                        תחת חטיבת התעשיות והשירותים של פז פועלות מספר חברות בנות, המתמחות בפיתוח, ייצור ושיווק מוצרי לוואי של נפט, ומובילות את השוק...
                     </p>
                     <a href="">קרא עוד</a>
                 </div>
             </div>
         </div>
-        <div class="clearfix">
-            <div class="column advBox">
+        <div class="clearfix row2">
+            <div class="column advBox" id="row2col1">
                 <h4>כרטיס אשראי שופרסל וכרטיס אשראי יש</h4>
-                <img src="">
+                <img src="images/paz_250x110059890678.jpg">
                 <a href="#">לפרטים נוספים</a>
             </div>
-            <div class="column advBox">
+            <div class="column advBox" id="row2col2">
                 <h4>yellow click&pick</h4>
-                <img src="">
+                <img src="images/250X110571325734.jpg">
                 <a href="#">לפרטים נוספים</a>
             </div>
-            <div class="column branchesBox">
+            <div class="column branchesBox clearfix" id="row2col3">
                 <h4>התחנות שלנו בדרך שלך</h4>
-                <img src="">
-                <a href="#">לפרטים נוספים</a>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="#">צפון</a>
+                        </li>
+                        <li>
+                            <a href="#">מרכז</a>
+                        </li>
+                        <li>
+                            <a href="#">דרום</a>
+                        </li>
+                    </ul>
+                </div>
+                <img src="images/Untitled-3058756287.jpg">
             </div>
 
         </div>
