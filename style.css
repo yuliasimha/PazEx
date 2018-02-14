@@ -63,8 +63,6 @@ margin-top: 20px;
     
 }
 
-
-
 div.search > input{
     float: right;
     border-top-right-radius: 5px;
@@ -73,12 +71,6 @@ div.search > input{
     width: 132px;
     height: 19px;
 }
-
-::placeholder {
-    color: black;
-    padding: 2px;
-}
-
 
 header > #logoIcon{
     position: absolute;

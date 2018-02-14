@@ -11,6 +11,11 @@ a{
     font-size: 13px;
 }
 
+::placeholder {
+    color: black;
+    padding: 2px;
+}
+
 .row1 > div.column {
     height: 350px;
     border-bottom-right-radius: 20px;
